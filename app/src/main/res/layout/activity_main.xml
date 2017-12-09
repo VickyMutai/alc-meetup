@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vicky.alc10.MainActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="ALC Nairobi Meetup 1.0"
+        android:textSize="32sp"
+        android:textColor="@color/colorAccent"
+        android:textAllCaps="false"
+        android:gravity="center_horizontal"
+        />
+    <ImageView
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/wood"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Enter your name "
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="SUBMIT"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:backgroundTint="@color/colorPrimaryDark"
+        />
+</LinearLayout>
